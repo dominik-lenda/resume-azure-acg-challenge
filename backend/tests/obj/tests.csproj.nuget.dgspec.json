@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gwynethpena/Desktop/azure-resume/backend/tests/tests.csproj": {}
+    "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/tests/tests.csproj": {}
   },
   "projects": {
-    "/Users/gwynethpena/Desktop/azure-resume/backend/api/api.csproj": {
+    "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gwynethpena/Desktop/azure-resume/backend/api/api.csproj",
+        "projectUniqueName": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/gwynethpena/Desktop/azure-resume/backend/api/api.csproj",
-        "packagesPath": "/Users/gwynethpena/.nuget/packages/",
-        "outputPath": "/Users/gwynethpena/Desktop/azure-resume/backend/api/obj/",
+        "projectPath": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/api.csproj",
+        "packagesPath": "/home/dominik_lenda/.nuget/packages/",
+        "outputPath": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/gwynethpena/.nuget/NuGet/NuGet.Config"
+          "/home/dominik_lenda/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -38,10 +41,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.Azure.WebJobs.Extensions.CosmosDB": {
-              "target": "Package",
-              "version": "[3.0.10, )"
-            },
             "Microsoft.NET.Sdk.Functions": {
               "target": "Package",
               "version": "[3.0.11, )"
@@ -57,39 +56,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/gwynethpena/Desktop/azure-resume/backend/tests/tests.csproj": {
+    "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/tests/tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gwynethpena/Desktop/azure-resume/backend/tests/tests.csproj",
+        "projectUniqueName": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/tests/tests.csproj",
         "projectName": "tests",
-        "projectPath": "/Users/gwynethpena/Desktop/azure-resume/backend/tests/tests.csproj",
-        "packagesPath": "/Users/gwynethpena/.nuget/packages/",
-        "outputPath": "/Users/gwynethpena/Desktop/azure-resume/backend/tests/obj/",
+        "projectPath": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/tests/tests.csproj",
+        "packagesPath": "/home/dominik_lenda/.nuget/packages/",
+        "outputPath": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/tests/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/gwynethpena/.nuget/NuGet/NuGet.Config"
+          "/home/dominik_lenda/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/gwynethpena/Desktop/azure-resume/backend/api/api.csproj": {
-                "projectPath": "/Users/gwynethpena/Desktop/azure-resume/backend/api/api.csproj"
+              "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/api.csproj": {
+                "projectPath": "/home/dominik_lenda/Documents/Projects/cloud/dl-resume-azure-acg-challenge/backend/api/api.csproj"
               }
             }
           }
@@ -101,8 +113,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -139,12 +151,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
