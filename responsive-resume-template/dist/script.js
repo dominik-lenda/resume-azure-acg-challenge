@@ -31,20 +31,25 @@ for(var i = 0; i < 20; i++){
   tl.add(t, (i+1)/0.6)
 }
 
+
 tl.seek(50);
 
-document.addEventListener('DOMContentLoaded', () => {
-  let objectConfig = {
-    method: "POST",
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-    },
-    body: JSON.stringify({
-      times: 1
-    })
-  }
-  fetch('https...', objectConfig)
-  .then(res => res.json())
-  .then(res => console.log(res))
+window.addEventListener('DOMContentLoaded', (event) => {
+  getVisitCount();
 })
+
+const functionApi = '';
+
+const getVisitCount = () => {
+  let count = 30;
+  fetch(functionApi).then(response => {
+    return response.json()
+  }).then(response => {
+    console.log("Website called function API");
+    count = response.count;
+    document.getElementById("counter").innerText = count;
+  }).catch(function(error) {
+    console.log(error);
+  });
+  return count;
+}

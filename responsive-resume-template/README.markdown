@@ -1,5 +1,8 @@
-# Responsive Resume Template
+# azure-resume
+My own azure resume, following ACG project video.
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/mariosmaselli/pen/CDcmb](https://codepen.io/mariosmaselli/pen/CDcmb).
+A Pen created on CodePen.io. Original URL: [https://codepen.io/mariosmaselli/pen/CDcmb](https://codepen.io/mariosmaselli/pen/CDcmb)
 
-Responsive resume template, you just need to fill out the content with your own. 
+## First steps
+- script.js contains visitor counter code
+
