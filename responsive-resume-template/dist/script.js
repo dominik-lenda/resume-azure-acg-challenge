@@ -32,3 +32,19 @@ for(var i = 0; i < 20; i++){
 }
 
 tl.seek(50);
+
+document.addEventListener('DOMContentLoaded', () => {
+  let objectConfig = {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+      times: 1
+    })
+  }
+  fetch('https...', objectConfig)
+  .then(res => res.json())
+  .then(res => console.log(res))
+})
