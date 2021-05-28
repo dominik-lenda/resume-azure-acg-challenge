@@ -4,7 +4,7 @@ AOS.init({
   duration: 1000
 });
 
-// Add your javascript here
+// Get data when DOM content is loaded
 window.addEventListener('DOMContentLoaded', (event) =>{
   getVisitCount();
 })
