@@ -14,6 +14,7 @@ const localFunctionApi = 'http://localhost:7071/api/GetResumeCounter';
 
 const getVisitCount = () => {
   let count = 30;
+  document.getElementById("counter").innerText = "Give serverless a second :)";
   fetch(functionApiUrl).then(response => {
     return response.json()
   }).then(response => {
